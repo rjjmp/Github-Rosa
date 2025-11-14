@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso a clinica Veterinaria</title>
+</head>
+<body>
+  <img src="imagenes/logo veterinaria.png" alt="Logo de la Clínica Veterinaria" class="logo">
+  
+    <h1>Formulario  de Servicio - Clínica Veterinaria</h1>
+    <form id="#" action="#" method="#">
+      <h2>Datos del servicio</h2>
+      <ol>
+        <li>
+      <label for="servicio"> Servicio solicitado </label>
+     <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:250px;">
+     </li>
+
+     <li>
+        <label>Horario disponible</label>
+            <label><input type="checkbox" name="horario" value="manana"> Mañana</label>
+            <label><input type="checkbox" name="horario" value="tarde"> Tarde</label>
+            <label><input type="checkbox" name="horario" value="noche"> Noche</label>
+            <label><input type="checkbox" name="horario" value="sabado"> Sábado</label>
+            <label><input type="checkbox" name="horario" value="domingo"> Domingo</label>
+      </li>
+      <h2>Datos de Propietario</h2>
+      <li>
+      <label for="Apellidos">Apellidos</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:250px;">
+       <label for="Apellidos"> Nombre</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:285px;">
+       </li>
+       <li>
+         <label for="Apellidos">Apodo</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:250px;">
+      <label for="cedula"> Cédula / Pasaporte</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:240px;">
+      </li>
+      <li>
+      <label for="sexo">Sexo</label>
+      <label><input type="radio" name="sexo" value="Femenino" checked> Femenino</label>
+      <label><input type="radio" name="sexo" value="Masculino" checked> Masculino</label>
+      </li>
+      <li>
+      <label for="direccion">Dirección</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:610px;">
+      </li>
+
+      <li>
+      <label for="ciudad">Provincia</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:200px;">
+      <label for="ciudad">Ciudad</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:200px;">
+      </li>
+
+      <li>
+      <label for="telefono">Teléfono:</label>
+      <label for="telefono">Residencial</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:180px;">
+      
+      <label for="telefono">Movil</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:180px;">
+      
+      <label for="telefono">Otro</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:80px;">
+      </li>
+      <li>
+      <label for="email">Correo electrónico</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:550px;">
+      </li>
+      
+      <h2>Datos de la mascota</h2>
+      <li>
+      <label for="nombre_mascota">Nombre de Mascota</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:550px;"><br><br>
+      </li>
+      <li>
+        <label for="especie">Especie</label>
+        <select id="especie" name="especie">
+        <option value="">Seleccione...</option>
+        <option value="perro">Perro</option>
+        <option value="gato">Gato</option>
+        <option value="ave">Ave</option>
+        <option value="reptil">Reptil</option>
+        <option value="otro">Otro</option>
+        </select>
+        &nbsp &nbsp &nbsp &nbsp
+        <label for="sexo_mascota">Sexo</label>
+        <label><input type="radio" name="sexo" value="Femenino" checked> Femenino</label>
+        <label>><input type="radio" name="sexo" value="Masculino" checked> Masculino</label>
+      </li>
+      
+      <li>
+      <label>¿Posee alguna discapacidad?</label>
+     <label><input type="radio" name="discapacidad" value="no" checked> No</label>
+      <label><input type="radio" name="discapacidad" value="si"> Sí</label>
+      </li>
+      <li>
+      <label><label>En caso afirmativo, especifique:</label>
+      <label><input type="radio" name="discapacidad" value="Auditiva" checked> Auditiva</label>
+      <label><input type="radio" name="discapacidad" value="Motriz" checked> Motriz</label>
+      <label><input type="radio" name="discapacidad" value="Visual" checked> Visual</label>
+      <label><input type="radio" name="discapacidad" value="Intelectual" checked> Intelectual</label>
+      <label><input type="radio" name="discapacidad" value="otras" checked> Otras</label><input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:95px;">
+      </li>
+     
+      <li>
+      <label for="edad_mascota">Fecha de nacimiento </label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:200px;">
+      <label for="edad_mascota">Edad aproximada</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:230px;">
+      </li>
+
+      <li>
+      <label for="color">Color</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:230px;">
+      &nbsp &nbsp &nbsp
+      <label>Vacunas al día</label>
+       <label><input type="radio" name="vacunas" value="si"> Sí</label>
+       <label><input type="radio" name="vacunas" value="no" checked> No</label>
+      </li>
+   
+      <li>
+      <label>Esterilizado</label>
+      <label><input type="radio" name="esterilizado" value="si"> Sí</label>
+      <label><input type="radio" name="esterilizado" value="no" checked> No</label>
+      &nbsp &nbsp &nbsp &nbsp
+     <label>Castrado</label>
+      <label><input type="radio" name="esterilizado" value="no" checked> Sí</label>
+      <label><input type="radio" name="esterilizado" value="no" checked> No</label>
+      </li>
+
+     <li>
+     <label for="condiciones">Condiciones médicas actuales / Historial</label>
+     <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:405;"><br>
+     <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:680px;"><br>
+     <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:680px;"><br>
+     <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:680px;"><br>
+     </li>
+
+      <h2>Datos del servicio solicitado</h2>
+     <li>
+      <label for="motivo">Motivo de la visita</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:550px;">
+     </li>
+
+     <li>
+      <label>Servicios (marque los aplicables)</label>
+       <label><input type="checkbox" name="servicios" value="consulta"> Consulta general</label>
+       <label><input type="checkbox" name="servicios" value="vacunacion"> Vacunación</label>
+        <label><input type="checkbox" name="servicios" value="emergencia"> Emergencia</label><br>
+       <label><input type="checkbox" name="servicios" value="desparasitacion"> Desparasitación</label>
+      <label><input type="checkbox" name="servicios" value="cirugia"> Cirugía</label>
+       <label><input type="checkbox" name="servicios" value="dental"> Limpieza dental</label>
+       <label><input type="checkbox" name="servicios" value="lab"> Exámenes de laboratorio</label>
+       <label><input type="checkbox" name="servicios" value="control"> Control de rutina</label>
+       <label><input type="checkbox" name="servicios" value="otro"> Otro</label>
+     </li>
+     <li>
+      <label for="visita_anterior">¿Ha visitado antes esta clínica?</label>
+        <label><input type="radio" name="visita_anterior" value="si"> Sí</label>
+        <label><input type="radio" name="visita_anterior" value="no" checked> No</label>
+      </li>
+     
+      <li>
+      <label for="ultima_visita">Fecha de la última visita (si aplica)</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:250px;">
+      </li>
+      </ol>
+      <h2>Información importante</h2>
+      <ul>
+        <li>Presentar documento de identidad al momento de la cita.</li>
+        <li>Traer tarjeta de vacunas de la mascota si dispone de ella.</li>
+        <li>Informar si la mascota presenta conductas agresivas o necesita manejo especial.</li><br><br><br>
+      </ul>
+
+
+    
+      <label for="firma">Firma del propietario (nombre completo)</label>
+      <input type="text" style="border:none; border-bottom:1px solid black; outline:none; width:250px;"><br><br>
+ 
+    <button type="reset" class="secondary">Limpiar</button> 
+    &nbsp &nbsp &nbsp &nbsp &nbsp
+    <button type="submit">Enviar solicitud</button>
+
+
+</form>  
+</body>
+</html>
